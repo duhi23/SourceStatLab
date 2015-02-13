@@ -1,0 +1,95 @@
+IDENTIFICACION	PRODUCTO	SALDO	
+4	CUENTA AHORROS	89	
+14	CUENTA AHORROS	34	
+17	CUENTA CORRIENTE	59	
+23	TARJETA DE CREDITO	69	
+31	TARJETA DE CREDITO	13	
+44	CERTIFICADO A PLAZO	6	
+24	TARJETA DE DEBITO	69	
+27	CERTIFICADO A PLAZO	96	
+25	CUENTA CORRIENTE	20	
+20	TARJETA DE CREDITO	44	
+18	CUENTA AHORROS	2	
+50	TARJETA DE DEBITO	88	
+38	TARJETA DE DEBITO	43	
+34	CUENTA CORRIENTE	43	
+36	CUENTA AHORROS	88	
+42	CERTIFICADO A PLAZO	97	
+49	CUENTA CORRIENTE	48	
+22	TARJETA DE DEBITO	92	
+10	TARJETA DE DEBITO	53	
+33	CUENTA AHORROS	65	
+7	CUENTA CORRIENTE	76	
+45	CUENTA AHORROS	70	
+40	TARJETA DE DEBITO	99	
+39	CUENTA AHORROS	83	
+11	TARJETA DE CREDITO	41	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
