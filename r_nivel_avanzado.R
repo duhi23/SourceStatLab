@@ -131,8 +131,10 @@ for(i in 1:nrow(f00)){
 by(data, data$ARCHIVO, nrow)
 
 
-
-
-
-
+data_ind <- grep("ind", f00$ARCHIVO)
+data_new <- c()
+for(i in data_ind){
+    file <- cbind(fread(f00[i,1]), "ARCHIVO"=i)
+    data_new <- rbind(data_new, file)
+}
 
