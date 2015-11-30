@@ -33,7 +33,7 @@ lapply(pckgs, FUN=library, character.only=TRUE)
 
 
 # Cargar datos
-read.csv(file="poblacion.csv", header=TRUE)
+#read.csv(file="poblacion.csv", header=TRUE)
 m01 <- fread("enero.txt")
 m02 <- fread("febrero.txt")
 p01 <- fread("productos.txt")
