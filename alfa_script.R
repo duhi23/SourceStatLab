@@ -7,12 +7,6 @@ ls("package:aod")
 library(dplyr)
 library(aod)
 
-mydata <- mtcars 
-# read.csv("http://www.ats.ucla.edu/stat/data/binary.csv")
-head(mydata)
-
-summary(mydata)
-
 alfa <- function(var, datos){
     library(dplyr)
     pos <- which(colnames(datos)!=var)
@@ -44,7 +38,5 @@ vec2 <- vec[!vec2]
 vec3 <- vec2[!is.na(vec2)]
 
 info1 <- info %>% select(vec3)
-
-#info2 <- info1 %>% select(800:1026) 
 
 resul <- alfa("VAR", info1)
