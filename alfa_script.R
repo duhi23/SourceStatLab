@@ -27,6 +27,24 @@ alfa <- function(var, datos){
 alfa("vs", mydata)
 
 library(foreign)
-ls("package")
+library(dplyr)
+ls("package:foreign")
 
+info <- tbl_df(read.spss("data_modelo.sav", to.data.frame = TRUE))
+info <- info %>% filter(VAR_DEP %in% c("BUENO", "MALO"))
+info <- info %>% mutate(VAR=ifelse(VAR_DEP=="BUENO",0,1))
 
+vec <- as.vector(which(unlist(lapply(info, class))=="numeric"))
+
+vec2 <- sapply(vec, function(i){
+    min(info[[i]])==max(info[[i]])
+})
+
+vec2 <- vec[!vec2]
+vec3 <- vec2[!is.na(vec2)]
+
+info1 <- info %>% select(vec3)
+
+#info2 <- info1 %>% select(800:1026) 
+
+resul <- alfa("VAR", info1)
